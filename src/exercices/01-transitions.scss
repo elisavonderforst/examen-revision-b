@@ -21,13 +21,11 @@
   margin-bottom: 20px;
   font-size: 48px;
   cursor: pointer;
-  transition: transform;
-  transition-timing-function: ease;
+  transition: transform 0.3s linear 0.5s;
 }
 
 .star:hover {
   transform: rotate(-90deg);
-  transition-delay: 0.5s;
 }
 
 .article {
